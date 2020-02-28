@@ -1,0 +1,163 @@
+body {
+    background-color: black;
+    /*#045757*/
+    overflow-x: hidden;
+    margin: 0 !important;
+    animation: fadeInAnimation ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+.navbar-brand {
+    font-size: 5vh;
+}
+
+.navbar {
+    background-color: rgba(0, 75, 56, 0.4) !important;
+    z-index: 3;
+    padding: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.nav-link {
+    color: antiquewhite !important;
+}
+
+.navbar-toggler {
+    background-color: rgba(0, 75, 56, 0.8) !important;
+}
+
+#Home {
+    background-color: rgba(0, 75, 56, 0.6) !important;
+    z-index: -1;
+    overflow-x: hidden;
+}
+
+.cain {
+    height: 100px !important;
+    width: 100px !important;
+}
+
+.overtext1,
+.overtext2 {
+    z-index: 1;
+    color: wheat;
+    position: absolute;
+    text-align: center;
+    font-family: 'Abril Fatface', cursive;
+}
+
+.branch-home {
+    z-index: 0;
+    position: absolute;
+    margin-top: -300px;
+}
+
+.branch-home>img {
+    z-index: 1;
+    overflow-x: hidden;
+    max-width: 100px;
+    max-height: 50px;
+}
+
+#info-home {
+    margin-top: -20px;
+    width: 100%;
+    height: auto;
+    max-height: 600px;
+    align-content: center;
+    background: url("C:/Users/rahul/OneDrive/Desktop/WebPanara/newsite/media/ayurveda3.jpg") no-repeat center center;
+    background-size: 100%;
+}
+
+.info-home-cain {
+    padding-top: 10%;
+    margin-left: 37%;
+    max-width: 570px;
+    height: auto;
+    color: aliceblue;
+}
+
+
+/************************************Feturs*********************************************************************************/
+
+
+/********************************************************Contact************************************************************/
+
+#Contact {
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    color: antiquewhite;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.indfoconatct {
+    color: aliceblue;
+    position: fixed;
+    margin: 100%;
+    padding: 100%;
+}
+
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@media screen and (min-width: 601px) {
+    div.info-home-cain>h1 {
+        font-size: 10vh;
+    }
+    .infoc {
+        font-size: 2vh;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    div.info-home-cain>h1 {
+        padding-top: 12%;
+        font-size: 3vh;
+        margin-left: -2%;
+    }
+    div.info-home-cain>h3 {
+        font-size: 1.7vh;
+        margin-left: -2%;
+    }
+    .info-home-cain {
+        max-width: 200px !important;
+    }
+    .infoc {
+        font-size: 1.5vh;
+    }
+}
+
+[aos="fade"] {
+    opacity: 0;
+    transition-property: opacity;
+}
+
+[aos="fade"].aos-animate {
+    opacity: 1;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.item {
+    width: 200px;
+    height: 200px;
+    margin: 50px auto;
+    padding-top: 75px;
+    background: #ccc;
+    text-align: center;
+    color: #FFF;
+    font-size: 3em;
+}
