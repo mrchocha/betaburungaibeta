@@ -150,7 +150,7 @@ nav .navbar-nav li a {
 
 #Home {
     margin-top: 80px;
-    background: linear-gradient(to right, rgba(0, 2.5, 2.5, 0.8), rgba(0, 0, 2.5, 0)), url("C:/Users/rahul/OneDrive/Desktop/WebPanara/newsite/media/poweder2c.jpg") no-repeat;
+    background: linear-gradient(to right, rgba(0, 2.5, 2.5, 0.8), rgba(0, 0, 2.5, 0)), url("media/poweder2c.jpg") no-repeat;
     background-size: cover;
     overflow-x: hidden;
     min-height: 800px;
