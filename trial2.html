@@ -9,6 +9,8 @@
     <link href="https://fonts.googleapis.com/css?family=Abril+Fatface&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Playball&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="CSS/glider.css">
+    <link rel="stylesheet" type="text/css" href="CSS/glider.min.css">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="CSS/odometer-theme-car.css" />
     <link rel="stylesheet" href="CSS/trial_style.css">
@@ -58,26 +60,50 @@
             <div class="overtext2" data-aos="fade-up" data-aos-duration="10000" style="font-size:10vw;">
                 Murungai
             </div>
-            <div class="home-txt">
+            <div class="home-txt" style="z-index: 2;">
                 hello there, how are
             </div>
-            <div data-aos="fade-up" data-aos-duration="10000">
-                <img src="media/back.png" alt="" width="100%" style="max-height: 800px">
-            </div>
         </div>
-
+        <div class="home-info" data-aos="fade-up" data-aos-duration="50000" style="margin-top: -25em; z-index: 0;">
+            <img src="media/back.png" alt="" width="100%" style="max-height: 800px">
+        </div>
     </section>
     <section style="margin-top: 10px;">
-        <div id="carouselExampleControls" data-aos="fade-up" data-aos-duration="5000" class="carousel slide" data-ride="carousel" style="max-height: 700px; min-height: 250px;">
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <img src="media/ayurveda3edited1.jpg.png" class="d-block w-100" alt="..." style="max-height: 700px; min-height: 250px;">
+        <div id="carouselExampleControls" data-aos="fade-up" data-aos-duration="5000" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner" style="text-align: center; color: white; font-size: 8em;">
+                <div class="carousel-item active carousel-item1">
+                    <div style="margin-top: 10%;">
+                        <a style="font-weight: 700; margin-top: 10%;">
+                        Tradition
+                        </a> of <br>
+                        <a style="font-weight: 700;">
+                        Aryuveda
+                        </a>
+                    </div>
                 </div>
-                <div class="carousel-item">
-                    <img src="media/VegVsNonveg.png" class="d-block w-100" alt="..." style="max-height: 700px; min-height: 250px;">
+                <div class="carousel-item carousel-item2">
+                    <div class="d-block w-100">
+                        <div style="margin-top: 15%;">
+                            <a style="font-weight: 700; margin-top: 10%;">
+                            Nuturition
+                            </a> and <br>
+                            <a style="font-weight: 700; margin-top: -10%;">
+                            Meat's 
+                            </a>Test
+                        </div>
+                    </div>
                 </div>
-                <div class="carousel-item">
-                    <img src="media/moneyVs earth.png" class="d-block w-100" alt="..." style="max-height: 700px; min-height: 250px;">
+                <div class="carousel-item carousel-item3">
+                    <div class="d-block w-100">
+                        <div style="margin-top: 5%;">
+                            <a style="font-weight: 700; margin-top: 10%;">
+                            Healthy 
+                            </a> Pocket <br>
+                            <a style="font-weight: 700;">
+                            Healthy
+                            </a> Environment
+                        </div>
+                    </div>
                 </div>
             </div>
             <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
@@ -100,7 +126,7 @@
         </div>
 
     </section>
-    <section id="description">
+    <section id="description" style="color: black;">
         <div class="desc-info1" data-aos="fade-up" data-aos-duration="1000">
             <div class="row">
                 <div class="col-sm" data-aos="fade-up" data-aos-duration="1000">
@@ -238,8 +264,8 @@
                         </tbody>
                     </table>
                 </div>
-            </div>
 
+            </div>
         </div>
         <div class="row justify-content-md-center" data-aos="fade-up" data-aos-duration="1000">
             Certified By
@@ -268,6 +294,19 @@
         </div>
     </section>
     <section>
+        <div class="glider-contain" style="color:white ;font-size: 10vh; font-weight: 600; background-color:black ; text-align: center;">
+            <div class="glider">
+                <div><img src="media/stressc.png" alt="" srcset="" height="300px"> <br> Reduce Stress</div>
+                <div><img src="media/antioxidentsc.png" alt="" srcset="" height="300px"><br> Gives Antioxidents</div>
+                <div><img src="media/viralc.png" alt="" srcset="" height="300px"><br> Protect From Viral</div>
+                <div><img src="media/cholostrollc.png" alt="" srcset="" height="300px"><br> Reduce Cholostroll</div>
+                <div><img src="media/diabetesc.png" alt="" srcset="" height="300px"> <br> Reduce Diabetese</div>
+                <div><img src="media/cancerc.png" alt="" srcset="" height="300px"><br> Reduce Cancer</div>
+            </div>
+            <button role="button" aria-label="Previous" class="glider-prev">«</button>
+            <button role="button" aria-label="Next" class="glider-next">»</button>
+            <div role="tablist" class="dots glider-dots"></div>
+        </div>
         <!--<div class="nums" style="margin-top: 10px; font-size: 7vh; background-color: black; color: azure; min-height: 50%; text-align: center;" data-aos="fade-up" data-aos-duration="1000">
             vitamin A in
             <img src="media/carrot.png" data-aos="fade-up" height="300px" data-aos-duration="1000" alt="" srcset="">X
@@ -300,6 +339,8 @@
     <script>
         AOS.init();
     </script>
+    <script src="JS/glider.js"></script>
+    <script src="JS/glider.min.js"></script>
     <script src="JS/trial_javascript.js"></script>
 </body>
 
