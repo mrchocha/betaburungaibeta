@@ -178,7 +178,7 @@ nav .navbar-nav li a {
 
 .tag {
     margin-top: -10px;
-    background-image: url("C:/Users/rahul/OneDrive/Desktop/WebPanara/newsite/media/dark.jpg");
+    background-image: url("media/dark.jpg");
     max-height: 700px;
     width: 100%;
     min-height: 200px;
@@ -229,13 +229,13 @@ nav .navbar-nav li a {
 
 .desc-info1,
 .desc-info3 {
-    background: url("C:/Users/rahul/OneDrive/Desktop/WebPanara/newsite/media/wood2.jpg")no-repeat center center;
+    background: url("media/wood2.jpg")no-repeat center center;
     background-size: cover;
 }
 
 .desc-info2,
 .desc-info4 {
-    background: url("C:/Users/rahul/OneDrive/Desktop/WebPanara/newsite/media/dark.jpg")no-repeat center center;
+    background: url("media/dark.jpg")no-repeat center center;
     background-size: cover;
 }
 
