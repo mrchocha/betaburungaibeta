@@ -161,6 +161,12 @@ nav .navbar-nav li a {
     background-position: center;
 }
 
+#particles-js {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
 .overtext1 {
     color: #2e742b;
     margin-top: 10%;
