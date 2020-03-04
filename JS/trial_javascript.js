@@ -1,8 +1,8 @@
 $(window).resize(function() {
-    $('.carousel-item').height($(window).height());
+    /*$('.carousel-item').height($(window).height());
     $('#carouselExampleControls').height($(window).height());
     $('#Home').height($(window).height());
-    $('#Contact').height($(window).height());
+    $('#Contact').height($(window).height());*/
 });
 $(window).trigger('resize');
 
