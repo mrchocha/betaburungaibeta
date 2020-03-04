@@ -1,6 +1,8 @@
 $(window).resize(function() {
     $('.carousel-item').height($(window).height());
     $('#carouselExampleControls').height($(window).height());
+    $('#Home').height($(window).height());
+    $('#Contact').height($(window).height());
 });
 $(window).trigger('resize');
 
@@ -22,7 +24,7 @@ new Glider(document.querySelector('.glider'), {
 particlesJS("particles-js", {
     "particles": {
         "number": {
-            "value": 355,
+            "value": 440,
             "density": {
                 "enable": true,
                 "value_area": 789.1476416322727
@@ -68,14 +70,14 @@ particlesJS("particles-js", {
         },
         "line_linked": {
             "enable": false,
-            "distance": 150,
+            "distance": 100,
             "color": "#ffffff",
             "opacity": 01,
             "width": 1
         },
         "move": {
             "enable": true,
-            "speed": 0.8,
+            "speed": 0.5,
             "direction": "none",
             "random": true,
             "straight": false,
