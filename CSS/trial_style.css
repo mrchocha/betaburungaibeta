@@ -76,58 +76,6 @@ nav .navbar-nav li a {
     transform: scaleY(1);
 }
 
-
-/*
-.nav-item {
-    display: inline-block;
-    vertical-align: middle;
-    -webkit-transform: perspective(1px) translateZ(0);
-    transform: perspective(1px) translateZ(0);
-    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
-    position: relative;
-    -webkit-transition-property: color;
-    transition-property: color;
-    -webkit-transition-duration: 0.3s;
-    transition-duration: 0.3s;
-}
-.nav-item:before {
-    content: "";
-    position: absolute;
-    z-index: -1;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background: #2e742b;
-    color: black;
-    border-bottom-right-radius: 50%;
-    border-top-left-radius: 50%;
-    -webkit-transform: scaleX(0);
-    transform: scaleX(0);
-    -webkit-transform-origin: 0 50%;
-    transform-origin: 0 50%;
-    -webkit-transition-property: transform;
-    transition-property: transform;
-    -webkit-transition-duration: 0.3s;
-    transition-duration: 0.3s;
-    -webkit-transition-timing-function: ease-out;
-    transition-timing-function: ease-out;
-}
-.nav-item:hover,
-.nav-item:focus,
-.nav-item:active,
-nav .navbar-nav li a {
-    color: white !important;
-}
-.nav-item:hover:before,
-.nav-item:focus:before,
-.nav-item:active:before,
-nav .navbar-nav li a {
-    -webkit-transform: scaleX(1);
-    transform: scaleX(1);
-}
-*/
-
 .overtext1,
 .overtext2 {
     z-index: 2;
@@ -241,7 +189,7 @@ nav .navbar-nav li a {
 
 .desc-text1,
 .desc-text3 {
-    padding: 10%;
+    margin-top: -10px;
     font-size: 3vh;
     align-items: center;
     text-shadow: 2px 2px black;
@@ -249,7 +197,7 @@ nav .navbar-nav li a {
 
 .desc-text2,
 .desc-text4 {
-    padding: 10%;
+    margin-top: -10px;
     font-size: 3vh;
     text-shadow: 2px 2px black;
 }
