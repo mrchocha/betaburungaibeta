@@ -189,7 +189,7 @@ nav .navbar-nav li a {
 
 .desc-text1,
 .desc-text3 {
-    margin-top: -10px;
+    margin-top: -10%;
     font-size: 3vh;
     align-items: center;
     text-shadow: 2px 2px black;
@@ -197,7 +197,7 @@ nav .navbar-nav li a {
 
 .desc-text2,
 .desc-text4 {
-    margin-top: -10px;
+    margin-top: -10%;
     font-size: 3vh;
     text-shadow: 2px 2px black;
 }
