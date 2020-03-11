@@ -181,7 +181,8 @@ nav .navbar-nav li a {
 .desc-info1,
 .desc-info2,
 .desc-info3,
-.desc-info4 {
+.desc-info4 {    
+    height: 80%;
     margin-top: 5px;
     min-height: 40em;
     color: aliceblue;
@@ -190,7 +191,8 @@ nav .navbar-nav li a {
 .desc-text1,
 .desc-text3 {
     font-size: 3vh;
-    margin-top: 5px;
+    margin-top: 4px;
+    margin-left: 4px;
     align-items: center;
     text-shadow: 2px 2px black;
 }
@@ -198,7 +200,8 @@ nav .navbar-nav li a {
 .desc-text2,
 .desc-text4 {
     font-size: 3vh;
-    margin-top: 5px;
+    margin-top: 4px;
+    margin-right: 4px;
     align-items: center;
     text-shadow: 2px 2px black;
 }
