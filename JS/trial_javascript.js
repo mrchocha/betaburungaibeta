@@ -5,17 +5,23 @@ $(window).resize(function() {
     $('#Contact').height($(window).height());*/
 });
 $(window).trigger('resize');
+var selector = '.navbar-nav li';
 
+$(selector).on('click', function() {
+    $(selector).removeClass('active');
+    $(this).addClass('active');
+});
 $(function() {
     $(document).click(function(event) {
         $('.navbar-collapse').collapse('hide');
     });
 });
+
 new Glider(document.querySelector('.glider'), {
     slidesToScroll: "auto",
     slidesToShow: 1,
     draggable: true,
-    dots: '.dots',
+    dots: 'dots',
     arrows: {
         prev: '.glider-prev',
         next: '.glider-next'
