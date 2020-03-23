@@ -1,5 +1,11 @@
 html {
     scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+.row {
+    margin-left: 0px !important;
+    margin-right: 0px !important;
 }
 
 body {
@@ -94,15 +100,15 @@ nav .navbar-nav li a {
 }
 
 #Home {
-    height: 100vh;
     margin-top: 10vh;
+    height: 100vh;
 }
 
 .home {
     background: linear-gradient(to right, rgba(0, 2.5, 2.5, 0.8), rgba(0, 0, 2.5, 0)), url('../media/poweder2c.jpg') no-repeat;
     background-size: cover;
     overflow-x: hidden;
-    min-height: 800px;
+    min-height: 90vh;
     background-attachment: fixed;
     background-position: center;
     height: 100%;
@@ -137,7 +143,6 @@ nav .navbar-nav li a {
     width: 100%;
     height: 100vh;
     min-height: 700px;
-    background-size: 100% 100%;
 }
 
 .carousel-item1 {
@@ -272,7 +277,6 @@ nav .navbar-nav li a {
 }
 
 .carousel-inner {
-    margin-top: -8%;
     min-height: 50vh;
 }
 
@@ -305,6 +309,47 @@ nav .navbar-nav li a {
 }
 
 @media only screen and (max-width: 600px) {
+    .home {
+        background: linear-gradient(to right, rgba(0, 2.5, 2.5, 0.8), rgba(0, 0, 2.5, 0)), url('../media/poweder3.jpg') no-repeat;
+        position: static;
+        background-size: cover;
+    }
+    .overtext1,
+    .overtext2 {
+        font-size: 10vh !important;
+    }
+    .overtext1 {
+        margin-top: 40%;
+    }
+    .carousel-item {
+        font-size: 11vh;
+    }
+    .item1-txt,
+    .item2-txt {
+        margin-top: 30vh !important;
+    }
+    .carousel-item3 {
+        background: url("../media/money.jpg") no-repeat;
+        background-size: cover;
+    }
+    .item3-txt {
+        font-size: 8vh !important;
+        margin-top: 30vh !important;
+    }
+    .desc-info1-title,
+    .desc-info2-title,
+    .desc-info3-title,
+    .desc-info4-title,
+    .table-info-title,
+    .cirti-title {
+        font-size: 6vh !important;
+    }
+    .table-info>.row {
+        font-size: 3vh;
+    }
+    .col-md-auto>img {
+        height: 5vh;
+    }
     .infoc {
         font-size: 1.5vh;
     }
