@@ -144,7 +144,7 @@ nav .navbar-nav li a {
   color: white;
 }
 
-#carouselExampleControls > .carousel-inner > .carousel-item {
+#carouselExampleControls > .carousel-inner1 > .carousel-item {
   width: 100%;
   height: 100vh;
   min-height: 700px;
@@ -315,7 +315,7 @@ nav .navbar-nav li a {
 .carousel-control-prev,.carousel-control-next{
     margin-top: -25vh;
 }
-.carousel-inner {
+.carousel-inner3 {
   min-height: 50vh;
 }
 
@@ -345,6 +345,9 @@ nav .navbar-nav li a {
     padding-left: 10px;
     font-size: 2vh;
   }
+  .tbl2{
+    display: none;
+  }
 }
 
 @media only screen and (max-width: 600px) {
@@ -366,7 +369,7 @@ nav .navbar-nav li a {
   .overtext1 {
     margin-top: 40%;
   }
-  .carousel-item {
+  .carousel-item1,.carousel-item2,.carousel-item3 {
     font-size: 11vh;
   }
   .item1-txt,
@@ -416,4 +419,11 @@ nav .navbar-nav li a {
   .card-body,.carousel-control-prev,.carousel-control-next {
     margin-top: 0;
   } 
+  .tbl1{
+    display: none;
+    font-size: 1.5vh;
+  }
+  .slide{
+    font-size: 5vh !important;
+  }
 }
