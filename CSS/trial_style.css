@@ -225,17 +225,68 @@ nav .navbar-nav li a {
   padding-left: 2vw;
 }
 
-.desc-info1,
+.desc-info1{
+  background: linear-gradient(
+    to right,
+    rgba(255, 225, 225,0),
+    rgba(225, 225, 225, 0),
+    rgba(220, 220, 220, 0),
+    rgba(0, 2.4, 2.5, 0.6),
+    rgba(0, 2.4, 2.5, 0.8),
+    rgba(0, 2.4, 2.5, 0.8),
+    rgba(0, 2.5, 2.5, 0.8),
+    rgba(0, 2.5, 2.5, 0.8)    
+  ), url("../media/herb1.jpg") no-repeat center center;
+  background-color: black;
+  background-size: cover;
+}
 .desc-info3 {
-  background: url("../media/wood2.jpg") no-repeat center center;
+  background: linear-gradient(
+    to right,
+    rgba(255, 225, 225,0),
+    rgba(225, 225, 225, 0),
+    rgba(220, 220, 220, 0),
+    rgba(0, 2.4, 2.5, 0.6),
+    rgba(0, 2.4, 2.5, 0.8),
+    rgba(0, 2.4, 2.5, 0.8),
+    rgba(0, 2.5, 2.5, 0.8),
+    rgba(0, 2.5, 2.5, 0.8)    
+  ), url("../media/fruit.jpg") no-repeat center center;
+  background-color: black;
   background-size: cover;
 }
 
-.desc-info2,
-.desc-info4 {
-  background: url("../media/dark.jpg") no-repeat center center;
+.desc-info2 { 
+  background: linear-gradient(
+    to right,
+    rgba(0, 2.5, 2.5, 0.8),
+    rgba(0, 2.5, 2.5, 0.8),
+    rgba(0, 2.4, 2.5, 0.8),
+    rgba(0, 2.4, 2.5, 0.8),
+    rgba(0, 2.4, 2.5, 0.6),
+    rgba(220, 220, 220, 0),
+    rgba(225, 225, 225, 0),
+    rgba(255, 225, 225,0)
+  ), url("../media/dinner.jpg") no-repeat center center;
+  background-color: #2e742b;
   background-size: cover;
 }
+.desc-info4 { 
+  background: linear-gradient(
+    to right,
+    rgba(0, 2.5, 2.5, 0.8),
+    rgba(0, 2.5, 2.5, 0.8),
+    rgba(0, 2.4, 2.5, 0.8),
+    rgba(0, 2.4, 2.5, 0.8),
+    rgba(0, 2.4, 2.5, 0.6),
+    rgba(220, 220, 220, 0),
+    rgba(225, 225, 225, 0),
+    rgba(255, 225, 225,0)
+  ), url("../media/green1.jpg") no-repeat center center;
+  background-color: #2e742b;
+  background-size: cover;
+}
+
 
 .col-sm > img {
   height: 100% !important;
@@ -417,13 +468,13 @@ nav .navbar-nav li a {
     margin-top: 0;
   } 
   .tbl1{
+    display: none;
     font-size: 2.5vh !important;
   }
   .table-responsive{
     margin: 0% !important;
   }
   .tbl2{
-    display:none;
     font-size: 2.5vh !important;
   }
   .slide{
