@@ -2,31 +2,28 @@ $(window).resize(function() {
     /*$('.carousel-item').height($(window).height());
     $('#carouselExampleControls').height($(window).height());
     $('#Home').height($(window).height());
-    $('#Contact').height($(window).height());*/
+    $('#Contact').height($(window).height());*/  
 });
 $(window).trigger('resize');
 var selector = '.navbar-nav li';
+
+$('.carousel').carousel({
+    interval: 2000,
+    pause:false,
+  })
 
 $(selector).on('click', function() {
     $(selector).removeClass('active');
     $(this).addClass('active');
 });
+
 $(function() {
     $(document).click(function(event) {
         $('.navbar-collapse').collapse('hide');
     });
 });
 
-new Glider(document.querySelector('.glider'), {
-    slidesToScroll: "auto",
-    slidesToShow: 1,
-    draggable: true,
-    dots: 'dots',
-    arrows: {
-        prev: '.glider-prev',
-        next: '.glider-next'
-    }
-});
+
 particlesJS("particles-js", {
     "particles": {
         "number": {
