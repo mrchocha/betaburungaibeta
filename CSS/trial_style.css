@@ -421,7 +421,9 @@ nav .navbar-nav li a {
   } 
   .tbl1{
     display: none;
-    font-size: 1.5vh;
+  }
+  .tbl2{
+    font-size: 2.5vh !important;
   }
   .slide{
     font-size: 5vh !important;
