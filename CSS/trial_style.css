@@ -570,12 +570,16 @@ nav .navbar-nav li a {
     padding: 0% !important;
     max-height: 7vh !important  ;
   }
+  
   .carousel-item3 {
     background-position-x: -5rem;
-  }
+  } 
   .impact-info-inner {
     margin: 0%;
     margin-bottom: 5vh;
+  }
+  .impact-info-inner-title{
+    font-size: 7vh !important;
   }
   .card-body,
   .carousel-control-prev,
