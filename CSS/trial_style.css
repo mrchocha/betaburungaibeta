@@ -225,68 +225,73 @@ nav .navbar-nav li a {
   padding-left: 2vw;
 }
 
-.desc-info1{
+.desc-info1 {
   background: linear-gradient(
-    to right,
-    rgba(255, 225, 225,0),
-    rgba(225, 225, 225, 0),
-    rgba(220, 220, 220, 0),
-    rgba(0, 2.4, 2.5, 0.6),
-    rgba(0, 2.4, 2.5, 0.8),
-    rgba(0, 2.4, 2.5, 0.8),
-    rgba(0, 2.5, 2.5, 0.8),
-    rgba(0, 2.5, 2.5, 0.8)    
-  ), url("../media/herb1.jpg") no-repeat center center;
+      to right,
+      rgba(255, 225, 225, 0),
+      rgba(225, 225, 225, 0),
+      rgba(220, 220, 220, 0),
+      rgba(0, 2.4, 2.5, 0.6),
+      rgba(0, 2.4, 2.5, 0.8),
+      rgba(0, 2.4, 2.5, 0.8),
+      rgba(0, 2.5, 2.5, 0.8),
+      rgba(0, 2.5, 2.5, 0.8)
+    ),
+    url("../media/herb1.jpg") no-repeat center center;
   background-color: black;
   background-size: cover;
 }
 .desc-info3 {
   background: linear-gradient(
-    to right,
-    rgba(255, 225, 225,0),
-    rgba(225, 225, 225, 0),
-    rgba(220, 220, 220, 0),
-    rgba(0, 2.4, 2.5, 0.6),
-    rgba(0, 2.4, 2.5, 0.8),
-    rgba(0, 2.4, 2.5, 0.8),
-    rgba(0, 2.5, 2.5, 0.8),
-    rgba(0, 2.5, 2.5, 0.8)    
-  ), url("../media/fruit.jpg") no-repeat center center;
+      to right,
+      rgba(255, 225, 225, 0),
+      rgba(225, 225, 225, 0),
+      rgba(220, 220, 220, 0),
+      rgba(0, 2.4, 2.5, 0.6),
+      rgba(0, 2.4, 2.5, 0.6),
+      rgba(0, 2.4, 2.5, 0.6),
+      rgba(0, 2.4, 2.5, 0.8),
+      rgba(0, 2.4, 2.5, 0.8),
+      rgba(0, 2.5, 2.5, 0.8),
+      rgba(0, 2.5, 2.5, 0.8)
+    ),
+    url("../media/fruit.jpg") no-repeat center center;
   background-color: black;
   background-size: cover;
 }
 
-.desc-info2 { 
+.desc-info2 {
   background: linear-gradient(
-    to right,
-    rgba(0, 2.5, 2.5, 0.8),
-    rgba(0, 2.5, 2.5, 0.8),
-    rgba(0, 2.4, 2.5, 0.8),
-    rgba(0, 2.4, 2.5, 0.8),
-    rgba(0, 2.4, 2.5, 0.6),
-    rgba(220, 220, 220, 0),
-    rgba(225, 225, 225, 0),
-    rgba(255, 225, 225,0)
-  ), url("../media/dinner.jpg") no-repeat center center;
+      to right,
+      rgba(0, 2.5, 2.5, 0.8),
+      rgba(0, 2.5, 2.5, 0.8),
+      rgba(0, 2.4, 2.5, 0.8),
+      rgba(0, 2.4, 2.5, 0.8),
+      rgba(0, 2.4, 2.5, 0.6),
+      rgba(220, 220, 220, 0),
+      rgba(225, 225, 225, 0),
+      rgba(255, 225, 225, 0)
+    ),
+    url("../media/dinner.jpg") no-repeat center center;
   background-color: #2e742b;
   background-size: cover;
 }
-.desc-info4 { 
+.desc-info4 {
   background: linear-gradient(
-    to right,
-    rgba(0, 2.5, 2.5, 0.8),
-    rgba(0, 2.5, 2.5, 0.8),
-    rgba(0, 2.4, 2.5, 0.8),
-    rgba(0, 2.4, 2.5, 0.8),
-    rgba(0, 2.4, 2.5, 0.6),
-    rgba(220, 220, 220, 0),
-    rgba(225, 225, 225, 0),
-    rgba(255, 225, 225,0)
-  ), url("../media/green1.jpg") no-repeat center center;
+      to right,
+      rgba(0, 2.5, 2.5, 0.8),
+      rgba(0, 2.5, 2.5, 0.8),
+      rgba(0, 2.4, 2.5, 0.8),
+      rgba(0, 2.4, 2.5, 0.8),
+      rgba(0, 2.4, 2.5, 0.6),
+      rgba(220, 220, 220, 0),
+      rgba(225, 225, 225, 0),
+      rgba(255, 225, 225, 0)
+    ),
+    url("../media/green1.jpg") no-repeat center center;
   background-color: #2e742b;
   background-size: cover;
 }
-
 
 .col-sm > img {
   height: 100% !important;
@@ -331,40 +336,68 @@ nav .navbar-nav li a {
   font-size: 2.7vh;
 }
 #Impacts {
-  background: url("../media/farmer.jpg") no-repeat;
+  background: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0.8),
+      rgba(0, 0, 0, 0.6),
+      rgba(0, 0, 0, 0.6),
+      rgba(0, 0, 0, 0.6),
+      rgba(0, 0, 0, 0.6),
+      rgba(0, 0, 0, 0.6),
+      rgba(0, 0, 0, 0.4),
+      rgba(0, 0, 0, 0.4),
+      rgba(225, 225, 225, 0.1)
+    ),
+    url("../media/farmer.jpg") no-repeat;
   background-position: center;
   background-size: cover;
   min-height: 80vh;
 }
+#Testimony{
+  background:linear-gradient(
+    to left,
+    rgba(0, 2.4, 2.5, 0.4),
+    rgba(0, 2.4, 2.5, 0.6),
+    rgba(220, 220, 220, 0),
+    rgba(220, 220, 220, 0),
+    rgba(220, 220, 220, 0),
+    rgba(220, 220, 220, 0),
+    rgba(220, 220, 220, 0),
+    rgba(0, 2.5, 2.5, 0.6),
+    rgba(0, 2.5, 2.5, 0.4))
+   , url("../media/comm.jpg") no-repeat center center;
+  background-size:  cover;
+  padding-top: 10vh;
+  position: relative;
+}
 
 .impact-info-inner {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  background-color: rgb(0, 0, 0);
-  background-color: rgba(0, 0, 0, 0.8);
   min-height: 30%;
   padding: 3vh;
   margin: 0 15vh 0 15vh;
   padding-bottom: 10vh;
-  border: solid 1.5px;
 }
 /*testimonoy*/
 .card {
   background-color: transparent;
   height: 100% !important;
   text-align: center;
-  padding: 10%;
-  font-size: 2.2vh;
+  border: 0;
+  padding-top: 10%;  
+  margin-left: 60vh;
+  margin-right: 60vh;
+  
 }
 
 .card-body {
+  font-size: 20vh !important;
   margin-top: -15vh;
   font-weight: 500;
   color: black;
-  background-color: white;
-  border-radius: 15px;
 }
-.carousel-control-prev,.carousel-control-next{
-    margin-top: -25vh;
+.carousel-control-prev,
+.carousel-control-next {
+  margin-top: -25vh;
 }
 .carousel-inner3 {
   min-height: 50vh;
@@ -396,7 +429,7 @@ nav .navbar-nav li a {
     padding-left: 10px;
     font-size: 2vh;
   }
-  .tbl2{
+  .tbl2 {
     display: none;
   }
 }
@@ -420,7 +453,9 @@ nav .navbar-nav li a {
   .overtext1 {
     margin-top: 40%;
   }
-  .carousel-item1,.carousel-item2,.carousel-item3 {
+  .carousel-item1,
+  .carousel-item2,
+  .carousel-item3 {
     font-size: 11vh;
   }
   .item1-txt,
@@ -441,22 +476,100 @@ nav .navbar-nav li a {
   .desc-info4-title,
   .table-info-title,
   .cirti-title {
-    font-size: 6vh !important;
+    font-size: 6vh !important;  
   }
+  .desc-text1,.desc-text2,.desc-text3,.desc-text4{
+    margin-top: 35vh;
+    padding-bottom: 10vh;
+  }
+.desc-info1 {
+  background: linear-gradient(
+      to bottom,
+      rgba(255, 225, 225, 0),
+      rgba(225, 225, 225, 0),
+      rgba(220, 220, 220, 0),
+      rgba(0, 2.4, 2.5, 0.6),
+      rgba(0, 2.4, 2.5, 0.8),
+      rgba(0, 2.4, 2.5, 0.8),
+      rgba(0, 2.4, 2.5, 0.8),
+      rgba(0, 2.5, 2.5, 0.8),
+      rgba(0, 2.5, 2.5, 0.8)
+    ),
+    url("../media/herb1.jpg") no-repeat center center;
+  background-color: black;
+  background-size: cover;
+}
+.desc-info3 {
+  background: linear-gradient(
+      to bottom,
+      rgba(255, 225, 225, 0),
+      rgba(225, 225, 225, 0),
+      rgba(220, 220, 220, 0),
+      rgba(0, 2.4, 2.5, 0.6),
+      rgba(0, 2.4, 2.5, 0.6),
+      rgba(0, 2.4, 2.5, 0.6),
+      rgba(0, 2.4, 2.5, 0.8),
+      rgba(0, 2.4, 2.5, 0.8),
+      rgba(0, 2.4, 2.5, 0.8),
+      rgba(0, 2.5, 2.5, 0.8),
+      rgba(0, 2.5, 2.5, 0.8)
+    ),
+    url("../media/fruit.jpg") no-repeat center center;
+  background-color: black;
+  background-size: cover;
+}
+
+.desc-info2 {
+  background: linear-gradient(
+      to top,
+      rgba(0, 2.5, 2.5, 0.8),
+      rgba(0, 2.5, 2.5, 0.8),
+      rgba(0, 2.4, 2.5, 0.8),
+      rgba(0, 2.4, 2.5, 0.8),
+      rgba(0, 2.4, 2.5, 0.8),
+      rgba(0, 2.4, 2.5, 0.6),
+      rgba(220, 220, 220, 0),
+      rgba(225, 225, 225, 0),
+      rgba(255, 225, 225, 0)
+    ),
+    url("../media/dinner.jpg") no-repeat center center;
+  background-color: #2e742b;
+  background-size: cover;
+}
+.desc-info4 {
+  background: linear-gradient(
+      to top,
+      rgba(0, 2.5, 2.5, 0.8),
+      rgba(0, 2.5, 2.5, 0.8),
+      rgba(0, 2.4, 2.5, 0.8),
+      rgba(0, 2.4, 2.5, 0.8),
+      rgba(0, 2.4, 2.5, 0.8),
+      rgba(0, 2.4, 2.5, 0.6),
+      rgba(220, 220, 220, 0),
+      rgba(225, 225, 225, 0),
+      rgba(255, 225, 225, 0)
+    ),
+    url("../media/green1.jpg") no-repeat center center;
+  background-color: #2e742b;
+  background-size: cover;
+}
+
+.glider-contain-title{
+  font-size: 5.3vh !important;
+}
   .col-md-auto > img {
     height: 5vh;
   }
   .infoc {
     font-size: 1.5vh;
   }
-  .cirty-img{
-      padding: 0% !important;
+  .cirty-img {
+    padding: 0% !important;
   }
-  .cirty-img>.col> img{
-
-      padding: 0% !important;
+  .cirty-img > .col > img {
+    padding: 0% !important;
     max-height: 7vh !important  ;
-}
+  }
   .carousel-item3 {
     background-position-x: -5rem;
   }
@@ -464,20 +577,45 @@ nav .navbar-nav li a {
     margin: 0%;
     margin-bottom: 5vh;
   }
-  .card-body,.carousel-control-prev,.carousel-control-next {
+  .card-body,
+  .carousel-control-prev,
+  .carousel-control-next {
     margin-top: 0;
-  } 
-  .tbl1{
+  }
+  .tbl1 {
     display: none;
     font-size: 2.5vh !important;
   }
-  .table-responsive{
+  .table-responsive {
     margin: 0% !important;
   }
-  .tbl2{
+  .tbl2 {
     font-size: 2.5vh !important;
   }
-  .slide{
+  .slide {
     font-size: 5vh !important;
+  }
+  #Testimony{
+    background:linear-gradient(
+      to left,
+      rgba(220, 220, 220, 0),
+      rgba(220, 220, 220, 0),
+      rgba(220, 220, 220, 0),
+      rgba(220, 220, 220, 0),
+      rgba(220, 220, 220, 0)
+     )
+     , url("../media/comm.jpg") no-repeat center center;
+    background-size:  cover;
+    padding-top: 17vh;
+    position: relative;
+  }
+  .Testimony-title{
+    font-size: 6vh !important;
+  }
+  
+  .card{
+    margin-left: 0%;
+    margin-right: 0%;
+    padding-top: 0%;
   }
 }
