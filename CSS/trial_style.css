@@ -1,7 +1,10 @@
 html {
   scroll-behavior: smooth;
   overflow-x: hidden;
+  overflow-y: scroll;
+  scroll-snap-type: y mandatory;
 }
+
 
 .row {
   margin-left: 0px !important;
@@ -94,9 +97,12 @@ nav .navbar-nav li a {
   margin-left: 6%;
 }
 
-.navbar-nav > .active {
-  background-color: #2e742b;
+.navbar-nav >.active {
+  background-color: #2e742b !important;
   z-index: 3;
+}
+.navbar-nav >.nav-item>.active{
+  background-color: transparent !important;
 }
 
 #Home {
