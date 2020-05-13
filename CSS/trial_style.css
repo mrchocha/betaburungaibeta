@@ -107,8 +107,11 @@ nav .navbar-nav li a {
 .home {
   background: linear-gradient(
       to right,
-      rgba(0, 2.5, 2.5, 0.8),
-      rgba(0, 0, 2.5, 0)
+      rgba(0, 0, 0, 0.8),
+      rgba(0, 0, 0, 0.8),
+      rgba(0, 0, 0, 0.6),
+      rgba(0, 0, 0, 0.4),
+      rgba(225, 225, 225, 0.2)
     ),
     url("../media/poweder2c.jpg") no-repeat;
   background-size: cover;
@@ -154,9 +157,11 @@ nav .navbar-nav li a {
   background: linear-gradient(
       to right,
       rgba(0, 2.5, 2.5, 0.8),
+      rgba(0, 0, 2.5, 0.4),
       rgba(0, 0, 2.5, 0),
       rgba(0, 0, 2.5, 0),
-      rgba(0, 0, 2.5, 0.8)
+      rgba(0, 0, 2.5, 0.4),
+      rgba(0, 2.5, 2.5, 0.8)
     ),
     url("../media/ayurveda4c.jpg") no-repeat;
   background-size: cover;
@@ -166,9 +171,11 @@ nav .navbar-nav li a {
   background: linear-gradient(
       to right,
       rgba(0, 2.5, 2.5, 0.8),
+      rgba(0, 0, 2.5, 0.4),
       rgba(0, 0, 2.5, 0),
       rgba(0, 0, 2.5, 0),
-      rgba(0, 0, 2.5, 0.8)
+      rgba(0, 0, 2.5, 0.4),
+      rgba(0, 2.5, 2.5, 0.8)
     ),
     url("../media/vegvsnonvegc.jpg") no-repeat;
   background-size: cover;
@@ -178,9 +185,11 @@ nav .navbar-nav li a {
   background: linear-gradient(
       to right,
       rgba(0, 2.5, 2.5, 0.8),
+      rgba(0, 0, 2.5, 0.4),
       rgba(0, 0, 2.5, 0),
       rgba(0, 0, 2.5, 0),
-      rgba(0, 1, 3, 0.1)
+      rgba(0, 0, 2.5, 0.4),
+      rgba(0, 2.5, 2.5, 0.8)
     ),
     url("../media/money.jpg") no-repeat;
   background-size: cover;
@@ -463,12 +472,12 @@ nav .navbar-nav li a {
     margin-top: 30vh !important;
   }
   .carousel-item3 {
-    background: url("../media/money.jpg") no-repeat;
+    background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.2),rgba(0,0,0,0.2)), url("../media/money.jpg") no-repeat;
     background-size: cover;
   }
   .item3-txt {
     font-size: 8vh !important;
-    margin-top: 30vh !important;
+    margin-top: 15vh !important;
   }
   .desc-info1-title,
   .desc-info2-title,
@@ -568,7 +577,7 @@ nav .navbar-nav li a {
   }
   .cirty-img > .col > img {
     padding: 0% !important;
-    max-height: 7vh !important  ;
+    max-height: 12vh !important  ;
   }
   
   .carousel-item3 {
@@ -621,5 +630,10 @@ nav .navbar-nav li a {
     margin-left: 0%;
     margin-right: 0%;
     padding-top: 0%;
+  }
+  .licence-tag{
+    margin:0% !important;
+    font-size:1.7vh !important;
+
   }
 }
