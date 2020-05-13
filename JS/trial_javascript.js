@@ -1,12 +1,11 @@
-$(window).resize(function() {
-    /*$('.carousel-item').height($(window).height());
-    $('#carouselExampleControls').height($(window).height());
-    $('#Home').height($(window).height());
-    $('#Contact').height($(window).height());*/  
-});
+
 $(window).trigger('resize');
 var selector = '.navbar-nav li';
-
+$(document).ready(function(){
+    var d = new Date();
+    var n = d.getFullYear();
+    $("#year").html(n);
+})
 $('.carousel').carousel({
     interval: 2000,
     pause:false,
