@@ -52,7 +52,7 @@ nav .navbar-nav li a {
   -webkit-transition-duration: 0.3s;
   transition-duration: 0.3s;
 }
-
+/*
 .nav-item:before {
   content: "";
   position: absolute;
@@ -73,21 +73,21 @@ nav .navbar-nav li a {
   -webkit-transition-timing-function: ease-out;
   transition-timing-function: ease-out;
 }
-
+*/
 .nav-item:hover,
 .nav-item:focus,
 .nav-item:active,
 nav .navbar-nav li a {
   color: white;
 }
-
+/*
 .nav-item:hover:before,
 .nav-item:focus:before,
 .nav-item:active:before,
 nav .navbar-nav li a {
   -webkit-transform: scaleY(1);
   transform: scaleY(1);
-}
+}*/
 
 .overtext1,
 .overtext2 {
@@ -96,13 +96,14 @@ nav .navbar-nav li a {
   font-family: "Montserrat", sans-serif;
   margin-left: 6%;
 }
-
+/*
 .navbar-nav >.active {
   background-color: #2e742b !important;
   z-index: 3;
-}
+}*/
 .navbar-nav >.nav-item>.active{
   background-color: transparent !important;
+  color: #2e742b !important;
 }
 
 #Home {
