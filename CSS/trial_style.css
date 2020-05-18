@@ -210,12 +210,14 @@ nav .navbar-nav li a {
   min-height: 200px;
   color: white;
   font-size: 2vh;
+  font-weight: 100 !important;
   background-size: cover;
 }
 
 .tag-info {
   padding-top: 5%;
-  margin-left: 20%;
+  margin-left: 10%;
+  margin-right: 10%;
   font-size: 2vh;
 }
 
