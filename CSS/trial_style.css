@@ -80,14 +80,14 @@ nav .navbar-nav li a {
 nav .navbar-nav li a {
   color: white;
 }
-/*
+
 .nav-item:hover:before,
 .nav-item:focus:before,
 .nav-item:active:before,
 nav .navbar-nav li a {
   -webkit-transform: scaleY(1);
   transform: scaleY(1);
-}*/
+}
 
 .overtext1,
 .overtext2 {
