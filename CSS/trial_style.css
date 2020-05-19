@@ -469,6 +469,7 @@ background-size: cover;
       url("../media/poweder3.jpg") no-repeat;
     background-attachment: fixed;
     background-size: cover;
+    line-height: 10.5vh;
   }
 
   .overtext1,
@@ -476,7 +477,7 @@ background-size: cover;
     font-size: 10vh !important;
   }
   .overtext1 {
-    margin-top: 58%;
+    margin-top: 40vh;
   }
   .carousel-item1,
   .carousel-item2,
