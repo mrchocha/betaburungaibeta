@@ -225,6 +225,7 @@ nav .navbar-nav li a {
 .desc-info2,
 .desc-info3,
 .desc-info4,
+.desc-info5,
 .impact-info {
   padding-top: 10vh;
   min-height: 80vh;
@@ -237,7 +238,8 @@ nav .navbar-nav li a {
 .desc-text1,
 .desc-text3,
 .desc-text2,
-.desc-text4 {
+.desc-text4,
+.desc-text5  {
   margin-top: 5px;
   height: 50%;
   padding-left: 2vw;
@@ -346,11 +348,10 @@ nav .navbar-nav li a {
   background-size: cover;
   font-size: 3em;
   font-weight: 600;
+  
 }
-
 .impact-info {
   color: white;
-  padding-left: 3vw;
   font-size: 2.7vh;
 }
 #Impacts {
@@ -360,16 +361,15 @@ nav .navbar-nav li a {
 }
 .desc-info5{
   background: linear-gradient(
-    to right,
-    rgba(0, 0, 0, 0.8),
-    rgba(0, 0, 0, 0.6),
-    rgba(0, 0, 0, 0.6),
-    rgba(0, 0, 0, 0.6),
-    rgba(0, 0, 0, 0.6),
-    rgba(0, 0, 0, 0.6),
-    rgba(0, 0, 0, 0.4),
-    rgba(0, 0, 0, 0.4),
-    rgba(225, 225, 225, 0.1)
+    to left,
+    rgba(0, 2.5, 2.5, 0.8),
+    rgba(0, 2.5, 2.5, 0.8),
+    rgba(0, 2.4, 2.5, 0.8),
+    rgba(0, 2.4, 2.5, 0.8),
+    rgba(0, 2.4, 2.5, 0.6),
+    rgba(220, 220, 220, 0),
+    rgba(225, 225, 225, 0),
+    rgba(255, 225, 225, 0)
   ),
   url("../media/farmer.jpg") no-repeat;
 background-position: center;
@@ -396,9 +396,8 @@ background-size: cover;
 
 .impact-info-inner {
   min-height: 30%;
-  padding: 3vh;
-  margin: 0 15vh 0 15vh;
-  padding-bottom: 10vh;
+  padding: 0vh;
+  padding-bottom: 2vh;
 }
 /*testimonoy*/
 .card {
@@ -496,7 +495,7 @@ background-size: cover;
     margin-top: 38vh !important;
   }
   .item3-txt{
-    margin-top: 30vh !important;
+    margin-top: 25vh !important;
   }
   .item1-txt>p,.item2-txt>p,.item3-txt>p{
     font-size: 2.5vh !important;
@@ -514,7 +513,7 @@ background-size: cover;
   .cirti-title {
     font-size: 6vh !important;  
   }
-  .desc-text1,.desc-text2,.desc-text3,.desc-text4{
+  .desc-text1,.desc-text2,.desc-text3,.desc-text4,.desc-text5{
     margin-top: 35vh;
     padding-bottom: 10vh;
   }
@@ -589,6 +588,27 @@ background-size: cover;
   background-color: #2e742b;
   background-size: cover;
 }
+.desc-info5 {
+  background: linear-gradient(
+      to top,
+      rgba(0, 2.5, 2.5, 0.8),
+      rgba(0, 2.5, 2.5, 0.8),
+      rgba(0, 2.4, 2.5, 0.8),
+      rgba(0, 2.4, 2.5, 0.8),
+      rgba(0, 2.4, 2.5, 0.8),
+      rgba(0, 2.4, 2.5, 0.6),
+      rgba(220, 220, 220, 0),
+      rgba(225, 225, 225, 0),
+      rgba(255, 225, 225, 0)
+    ),
+    url("../media/farmer.jpg") no-repeat center center;
+  background-color: #2e742b;
+  background-size: cover;
+}
+.desc-info5-title,.desc-info2-title,#tagsec{
+  line-height: 5vh;
+}
+
 
 .glider-contain-title{
   font-size: 5.3vh !important;
@@ -651,6 +671,7 @@ background-size: cover;
   }
   .Testimony-title{
     font-size: 6vh !important;
+    line-height: 3vh;
   }
   
   .card{
