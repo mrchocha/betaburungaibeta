@@ -354,23 +354,28 @@ nav .navbar-nav li a {
   font-size: 2.7vh;
 }
 #Impacts {
-  background: linear-gradient(
-      to right,
-      rgba(0, 0, 0, 0.8),
-      rgba(0, 0, 0, 0.6),
-      rgba(0, 0, 0, 0.6),
-      rgba(0, 0, 0, 0.6),
-      rgba(0, 0, 0, 0.6),
-      rgba(0, 0, 0, 0.6),
-      rgba(0, 0, 0, 0.4),
-      rgba(0, 0, 0, 0.4),
-      rgba(225, 225, 225, 0.1)
-    ),
-    url("../media/farmer.jpg") no-repeat;
-  background-position: center;
-  background-size: cover;
+  background:black;
   min-height: 80vh;
+  background-size: cover;
 }
+.desc-info5{
+  background: linear-gradient(
+    to right,
+    rgba(0, 0, 0, 0.8),
+    rgba(0, 0, 0, 0.6),
+    rgba(0, 0, 0, 0.6),
+    rgba(0, 0, 0, 0.6),
+    rgba(0, 0, 0, 0.6),
+    rgba(0, 0, 0, 0.6),
+    rgba(0, 0, 0, 0.4),
+    rgba(0, 0, 0, 0.4),
+    rgba(225, 225, 225, 0.1)
+  ),
+  url("../media/farmer.jpg") no-repeat;
+background-position: center;
+background-size: cover;
+}
+
 #Testimony{
   background:linear-gradient(
     to left,
@@ -450,6 +455,9 @@ nav .navbar-nav li a {
   .tbl2 {
     display: none;
   }
+  .desc-info5{
+
+  }
 }
 
 @media only screen and (max-width: 600px) {
@@ -469,7 +477,7 @@ nav .navbar-nav li a {
     font-size: 10vh !important;
   }
   .overtext1 {
-    margin-top: 40%;
+    margin-top: 58%;
   }
   .carousel-item1,
   .carousel-item2,
@@ -477,16 +485,26 @@ nav .navbar-nav li a {
     font-size: 11vh;
   }
   .item1-txt,
-  .item2-txt {
+  .item2-txt,
+  .item3-txt{
+    line-height: 11vh !important;
+  }
+  .item1-txt{
+    margin-top: 35vh !important;
+  }
+  .item2-txt{
+    margin-top: 38vh !important;
+  }
+  .item3-txt{
     margin-top: 30vh !important;
+  }
+  .item1-txt>p,.item2-txt>p,.item3-txt>p{
+    font-size: 2.5vh !important;
+    line-height:3vh !important;
   }
   .carousel-item3 {
     background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.2),rgba(0,0,0,0.2)), url("../media/money.jpg") no-repeat;
     background-size: cover;
-  }
-  .item3-txt {
-    font-size: 8vh !important;
-    margin-top: 15vh !important;
   }
   .desc-info1-title,
   .desc-info2-title,
@@ -646,4 +664,3 @@ nav .navbar-nav li a {
 
   }
 }
-
